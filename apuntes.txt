@@ -1,0 +1,9 @@
+@mixin vorder-radius($radius){
+    border-radius:$radius;
+    -moz-border-radius:$radius;
+    -webkit-border-radius:$radius;
+}
+
+Cuando hay codigo repetido haces un mixin
+No hay que hace copy paste eso es un mixin eso es lo que hace sass
+

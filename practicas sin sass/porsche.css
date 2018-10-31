@@ -1,0 +1,158 @@
+.panel-coche--display{
+
+    display: inline-flex;
+    padding-left: 5.14286%;
+    padding-right: 5.14286%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+.panel-coches__body{
+
+    
+}
+.panel-coche__body-imagen--tamanyo{
+ 
+    width: 310.297px;
+    height: 349.078px;
+    
+}
+.panel-configure--display{
+
+    display: inline-flex;
+    padding-left: 5.14286%;
+    padding-right: 5.14286%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+    
+}
+.panel-configure__body{
+
+    
+}
+.panel-configure__body-imagen--tamanyo{
+ 
+    width: 311px;
+    height: 214.906px;
+    
+}
+.panel-asistente--display{
+
+    display: inline-flex;
+    padding-left: 5.14286%;
+    padding-right: 5.14286%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+    
+}
+.panel-asistente__body{
+
+    
+}
+.panel-asistente__body-imagen--tamanyo{
+ 
+    width: 310.297px;
+    height: 349.078px;
+}
+.panel-asistente__body-imagen--tamanyo-grande{
+ 
+    width:620.594px;
+    height: 349.078px;
+}
+.panel-descubre--display{
+
+    display: inline-flex;
+    padding-left: 5.14286%;
+    padding-right: 5.14286%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+    
+}
+.panel-descubre__body{
+
+    
+}
+.panel-descubre__body-imagen--tamanyo{
+ 
+    width: 310.297px;
+    height: 267.250px;
+}
+ .cabecera--tipoletra{
+
+    font-family: monospace;
+    font-weight: inherit;
+ }
+
+.cabecera--center{
+
+   text-align: center; 
+}
+.cabecera{
+
+    font-size: 30px;
+   
+}
+.flecha-roja--descubra{
+
+    color:red;
+    font-size:30px;
+    padding-right: 5px;
+
+}
+.flecha-roja--hover:hover{
+
+    color:red;
+    
+
+}
+
+.flecha-roja--texto {
+    font-size:20px;
+    padding-right: 5px;
+    
+
+}
+.footer__section--blanco{
+    background:white;
+    color:black;
+    height: 500px;
+    width:1570px;
+    display:inline-flex;
+    padding:40px;
+    margin:30px;
+}
+.footer__section--negro{
+    background:black;
+    color:white;
+    height: 500px;
+    width:1570px;
+
+}
+.div__section--blanco{
+    margin:100px;
+    margin-top:-70px;
+}
+.parrafo__section--color-texto:hover{
+
+    color:red;
+}
+.titulo__section--color-texto{
+
+    color:grey;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+.panel__header{
+    padding-left:80px;
+}

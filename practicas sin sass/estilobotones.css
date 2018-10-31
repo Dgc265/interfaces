@@ -1,0 +1,53 @@
+.button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #337ab7;
+    font-size: 20px;
+    padding:5px;
+
+}
+.button--primary{
+ background-color: #337ab7;
+
+}
+.button--info{
+    background-color: #5bc0de;
+  
+   }
+   .button--succes{
+    background-color: #5cb85c;
+  
+   }
+.button--warning{
+    background-color: #f0ad4e;
+  
+   }
+ .button--danger{
+    background-color: #d9534f;
+   
+   }
+.button--large{
+    
+    font-size: 30px;
+    padding:5px;
+
+}
+.button--default{
+    
+    font-size: 20px;
+    padding:5px;
+
+}
+.button--small{
+    
+    font-size: 15px;
+    padding:5px;
+
+}
+.button--extra-small{
+    font-size: 8px;
+    padding:5px;
+
+}

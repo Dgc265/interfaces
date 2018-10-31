@@ -1,0 +1,39 @@
+.button {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #337ab7;
+  font-size: 20px;
+  padding: 5px; }
+
+.button--primary {
+  background-color: royalblue; }
+
+.button--warning {
+  background-color: orange; }
+
+.button--info {
+  background-color: aqua; }
+
+.button--danger {
+  background-color: red; }
+
+.button--succes {
+  background-color: greenyellow; }
+
+.button--extra-small {
+  font-size: 10px;
+  padding: 5px; }
+
+.button--small {
+  font-size: 15px;
+  padding: 5px; }
+
+.button--default {
+  font-size: 20px;
+  padding: 5px; }
+
+.button--large {
+  font-size: 30px;
+  padding: 5px; }

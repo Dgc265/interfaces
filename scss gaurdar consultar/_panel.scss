@@ -1,0 +1,47 @@
+.panel {
+
+}
+
+.panel__head{
+    background-color: $color-primary;
+    padding:15px;
+    border-top-right-radius:$border-radius;
+    border-top-left-radius: $border-radius;
+    color: white;
+    font-size:20;
+    }
+    
+.panel__body{
+    border-bottom-right-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    border: solid 1px;
+    border-color:darken($color-primary,30%);
+    padding:15px;
+    font-size: 12px;
+    }
+@each $name , $color in $colors{
+    .panel--#{$name}{
+   
+    }
+
+    .panel__head--#{$name}{
+        background-color:$color;
+    }
+    .panel__body--#{$name}{
+        border-color:darken($color,30%);
+    }
+
+
+}
+@each $name , $tamanyoHead in $tamanyo{
+    .panel--#{$name}{
+    }
+    .panel__head--#{$name}{
+        font-size:$tamanyoHead;
+    }
+    .panel__body--#{$name}{
+        font-size:$tamanyoHead*0.7;
+    }
+    
+
+}

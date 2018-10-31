@@ -1,0 +1,35 @@
+.grid{
+	display:grid;
+}
+
+.grid--2clo{
+	grid-template-aeras: ‘colum1 colum2’
+}
+.grid--3clo{
+	grid-template-aeras: ‘colum1 colum2 colum3’
+}
+.grid--4clo{
+	grid-template-aeras: ‘colum1 colum2 colum3 colum4’
+}
+.grid--5clo{
+	grid-template-aeras: ‘colum1 colum2 colum3 colum4 colum5’
+}
+
+.grid__column1{
+	grid-area:colum1;
+}
+
+.grid__column2{
+	grid-area:colum2;
+}
+
+.grid__column3{
+	grid-area:colum3;
+}
+
+.grid__column4{
+	grid-area:colum4;
+}
+.grid__column5{
+	grid-area:colum5;
+}

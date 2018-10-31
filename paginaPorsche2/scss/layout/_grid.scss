@@ -1,0 +1,35 @@
+.grid{
+	display:grid;
+}
+
+.grid--2clo{
+	grid-template-areas:"area1 area2";
+}
+.grid--3clo{
+	grid-template-areas:"area1 area2 area3";
+}
+.grid--4clo{
+	grid-template-areas:"area1 area2 area3 area4";
+}
+.grid--5clo{
+	grid-template-areas:"area1 area2 area3 area4 area5";
+}
+
+.grid__area1{
+	grid-area:"area1";
+}
+
+.grid__area2{
+	grid-area:"area2";
+}
+
+.grid__area3{
+	grid-area:"area3";
+}
+
+.grid__area4{
+	grid-area:"area4";
+}
+.grid__area5{
+	grid-area:"area5";
+}

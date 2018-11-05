@@ -2,34 +2,72 @@
 	display:grid;
 }
 
-.grid--2clo{
+.grid--2col{
 	grid-template-areas:"area1 area2";
 }
-.grid--3clo{
+.grid--3col{
 	grid-template-areas:"area1 area2 area3";
 }
-.grid--4clo{
+.grid--4col{
+	grid-template-areas:"area1" 
+						"area2" 
+						"area3" 
+						"area4";
+}
+@media (min-width:600px){
+	
+	.grid--4col{
+		grid-template-areas:"area1 area2" 
+							"area3 area4";
+	}
+	
+	}
+
+@media (min-width:800px){
+.grid--4col{
 	grid-template-areas:"area1 area2 area3 area4";
 }
-.grid--5clo{
+
+}
+.grid--5col{
+	grid-template-areas:"area1"
+						"area2" 
+						"area3" 
+						"area4" 
+						"area5";
+}
+
+@media (min-width:600px){
+	.grid--5col{
+		grid-template-areas:"area1 area2" 
+							"area3 area4" 
+							"area5 .";
+	}
+	
+	}
+
+@media (min-width:800px){
+.grid--5col{
 	grid-template-areas:"area1 area2 area3 area4 area5";
 }
 
+}
+
 .grid__area1{
-	grid-area:"area1";
+	grid-area:area1;
 }
 
 .grid__area2{
-	grid-area:"area2";
+	grid-area:area2;
 }
 
 .grid__area3{
-	grid-area:"area3";
+	grid-area:area3;
 }
 
 .grid__area4{
-	grid-area:"area4";
+	grid-area:area4;
 }
 .grid__area5{
-	grid-area:"area5";
+	grid-area:area5;
 }

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
           "test": "echo \"Error: no test specified\" && exit 1",
-          "deploy":"bash deploy/deploy.sh"
+          "deploy":"bash deploy/deploy.sh",
+          "onchange":"onchange -v www/scss/**/*.scss -- npm run deploy"
   },
   "author": "",
   "license": "ISC"

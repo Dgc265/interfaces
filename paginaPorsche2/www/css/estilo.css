@@ -1,0 +1,228 @@
+.button {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #337ab7;
+  font-size: 20px;
+  padding: 5px; }
+
+.button--primary {
+  background-color: royalblue; }
+
+.button--warning {
+  background-color: orange; }
+
+.button--info {
+  background-color: aqua; }
+
+.button--danger {
+  background-color: red; }
+
+.button--succes {
+  background-color: greenyellow; }
+
+.button--extra-small {
+  font-size: 10px;
+  padding: 5px; }
+
+.button--small {
+  font-size: 15px;
+  padding: 5px; }
+
+.button--default {
+  font-size: 20px;
+  padding: 5px; }
+
+.button--large {
+  font-size: 30px;
+  padding: 5px; }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+li {
+  margin: 0px;
+  padding: 10px;
+  list-style: none; }
+
+.cabecera--tipoletra {
+  font-family: monospace;
+  font-weight: inherit; }
+
+.cabecera--center {
+  text-align: center; }
+
+.cabecera {
+  font-size: 30px; }
+
+.div__section--blanco {
+  margin: 100px;
+  margin-top: -70px; }
+
+.flecha-roja--descubra {
+  color: red;
+  font-size: 30px;
+  padding-right: 5px; }
+
+.flecha-roja--hover:hover {
+  color: red; }
+
+.flecha-roja--texto {
+  font-size: 20px;
+  padding-right: 5px; }
+
+.footer__section--blanco {
+  background: white;
+  color: black;
+  height: 500px;
+  width: 1570px;
+  display: inline-flex;
+  padding: 40px;
+  margin: 30px; }
+
+.footer__section--negro {
+  background: black;
+  color: white;
+  height: 500px;
+  width: 1570px; }
+
+.titulo-footer__section--color-texto {
+  color: white;
+  padding: 100px; }
+
+.panel-coche--display {
+  display: inline-flex;
+  padding-left: 5.14286%;
+  padding-right: 5.14286%;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+
+.panel-coche__body-imagen--tamanyo {
+  width: 310.297px;
+  height: 349.078px; }
+
+.panel-configure--display {
+  display: inline-flex;
+  padding-left: 5.14286%;
+  padding-right: 5.14286%;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+
+.panel-configure__body-imagen--tamanyo {
+  width: 311px;
+  height: 214.906px; }
+
+.panel-asistente--display {
+  display: inline-flex;
+  padding-left: 5.14286%;
+  padding-right: 5.14286%;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+
+.panel-asistente__body-imagen--tamanyo {
+  width: 310.297px;
+  height: 349.078px; }
+
+.panel-asistente__body-imagen--tamanyo-grande {
+  width: 620.594px;
+  height: 349.078px; }
+
+.panel-descubre--display {
+  display: inline-flex;
+  padding-left: 5.14286%;
+  padding-right: 5.14286%;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+
+.panel-descubre__body-imagen--tamanyo {
+  width: 310.297px;
+  height: 267.250px; }
+
+.panel__header {
+  padding-left: 80px; }
+
+.panel-menu__lista {
+  display: inline-block;
+  margin: 10px;
+  margin-left: 60px; }
+
+.panel-menu__elemento-lista {
+  float: left;
+  margin: 5px;
+  padding: 5px; }
+
+.panel-menu__elemento-lista--hover:hover {
+  color: red; }
+
+.panel-select {
+  margin-left: 300px;
+  display: inline-block; }
+
+.panel-select__parrafo {
+  margin-left: 350px;
+  margin-bottom: 50px;
+  font-size: 25px; }
+
+.panel-select__select {
+  background: black;
+  color: white;
+  padding: 17px; }
+
+.panel-select__option {
+  color: white; }
+
+.parrafo__section--color-texto:hover {
+  color: red; }
+
+.parrafo__section--color-texto {
+  padding: 15px;
+  margin-left: -15px; }
+
+.grid {
+  display: grid; }
+
+.grid--2col {
+  grid-template-areas: "area1 area2"; }
+
+.grid--3col {
+  grid-template-areas: "area1 area2 area3"; }
+
+.grid--4col {
+  grid-template-areas: "area1"  "area2"  "area3"  "area4"; }
+
+@media (min-width: 600px) {
+  .grid--4col {
+    grid-template-areas: "area1 area2"  "area3 area4"; } }
+
+@media (min-width: 800px) {
+  .grid--4col {
+    grid-template-areas: "area1 area2 area3 area4"; } }
+
+.grid--5col {
+  grid-template-areas: "area1" "area2"  "area3"  "area4"  "area5"; }
+
+@media (min-width: 600px) {
+  .grid--5col {
+    grid-template-areas: "area1 area2"  "area3 area4"  "area5 ."; } }
+
+@media (min-width: 800px) {
+  .grid--5col {
+    grid-template-areas: "area1 area2 area3 area4 area5"; } }
+
+.grid__area1 {
+  grid-area: area1; }
+
+.grid__area2 {
+  grid-area: area2; }
+
+.grid__area3 {
+  grid-area: area3; }
+
+.grid__area4 {
+  grid-area: area4; }
+
+.grid__area5 {
+  grid-area: area5; }

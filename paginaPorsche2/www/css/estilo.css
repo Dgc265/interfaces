@@ -204,11 +204,11 @@ li {
 .grid--5col {
   grid-template-areas: "area1" "area2"  "area3"  "area4"  "area5"; }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .grid--5col {
     grid-template-areas: "area1 area2"  "area3 area4"  "area5 ."; } }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .grid--5col {
     grid-template-areas: "area1 area2 area3 area4 area5"; } }
 

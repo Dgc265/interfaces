@@ -150,7 +150,6 @@ li {
   margin-left: 60px; }
 
 .panel-menu__elemento-lista {
-  float: left;
   margin: 5px;
   padding: 5px; }
 
@@ -226,3 +225,18 @@ li {
 
 .grid__area5 {
   grid-area: area5; }
+
+.flex {
+  display: flex; }
+
+.flex--wrap {
+  border: 1px solid red;
+  flex-wrap: wrap; }
+
+.flex--direccion {
+  border: 1px solid red;
+  flex-direction: row; }
+
+.flex__item {
+  border: 1px solid red;
+  align-self: left; }

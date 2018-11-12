@@ -1,0 +1,20 @@
+
+.flex{
+   
+    display:flex;
+    
+}
+ .flex--wrap {
+    @include debug;
+     flex-wrap:wrap;
+ }
+ .flex--direccion {
+    @include debug;
+     flex-direction: row;
+ }
+
+.flex__item{
+    @include debug;
+align-self:left;
+
+}

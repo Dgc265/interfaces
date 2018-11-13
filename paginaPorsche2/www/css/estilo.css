@@ -227,16 +227,13 @@ li {
   grid-area: area5; }
 
 .flex {
-  display: flex; }
-
-.flex--wrap {
-  border: 1px solid red;
+  display: flex;
   flex-wrap: wrap; }
 
-.flex--direccion {
-  border: 1px solid red;
-  flex-direction: row; }
+.flex--rows {
+  flex-direction: row;
+  align-self: left; }
 
-.flex__item {
-  border: 1px solid red;
+.flex--columns {
+  flex-direction: column;
   align-self: left; }

@@ -1,20 +1,24 @@
 
+
 .flex{
    
     display:flex;
+    @include debug;
+    flex-wrap:wrap;
     
 }
- .flex--wrap {
+
+ .flex--rows{
     @include debug;
-     flex-wrap:wrap;
- }
- .flex--direccion {
-    @include debug;
-     flex-direction: row;
+     flex-direction:row;
+     align-self:left;
  }
 
-.flex__item{
+ .flex--columns{
     @include debug;
-align-self:left;
+     flex-direction: column;
+     align-self:left;
+ }
 
-}
+
+
